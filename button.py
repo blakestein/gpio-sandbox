@@ -29,7 +29,5 @@ def light(state):
 		GPIO.cleanup()
 	if (inc < 3):
 		light(inc)
-	else:
-		light(0)
 light(0)
 GPIO.cleanup()
